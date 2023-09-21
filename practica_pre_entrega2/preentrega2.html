@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Pre-entrega</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tierra Patagonica</h1>
+    </header>
+    <div>
+      <h1>¿Que producto estas intersado en comprar?</h1>
+    </div>
+    <div id="container">
+      <div>
+        <img
+          class="stanley"
+          src="./img/termo-negro.jpeg"
+          alt="termo color negro"
+        />
+        <button onclick="comprar(termo)">COMPRAR</button>
+      </div>
+      <div>
+        <img class="stanley" src="./img/vaso-negro.jpeg" alt="vaso negro" />
+        <button onclick="comprar(vaso)">COMPRAR</button>
+      </div>
+      <div>
+        <img class="stanley" src="./img/mate-rojo.jpeg" alt="mate rojo" />
+        <button onclick="comprar(mate)">COMPRAR</button>
+      </div>
+    </div>
+
+    <div>
+      <h2>Carrito</h2>
+      <ul id="carrito"></ul>
+      <h3 id="dolares">total: <span></span></h3>
+    </div>
+    <script src="./preentrega2.js"></script>
+  </body>
+</html>
